@@ -1,0 +1,42 @@
+/*
+This file is the stylesheet for the guessing game HTML code.
+*/
+
+body {
+    background-color: aqua;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18pt;
+}
+
+h1 {
+    font-size: 72pt;
+}
+
+#welcome {
+    float:left;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    width: 60%;
+}
+
+#maxmin {
+    background-color: aquamarine;
+    float: right;
+    padding: 30px;
+    width: 20%;
+}
+
+body, h1, #maxmin p {
+    margin: 0px;
+}
+
+#prevguess, #currentguess {
+    float: left;
+    margin-left: 60px;  
+    margin-top: 0px;
+}
+
+#header {
+    font-size: 20pt;    
+    font-weight: bold;
+}
